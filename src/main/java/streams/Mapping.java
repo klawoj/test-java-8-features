@@ -7,7 +7,14 @@ import java.util.List;
 
 import static common.Dish.menu;
 import static java.util.stream.Collectors.toList;
-
+/**
+ * Borrowed from
+ * https://github.com/java8/Java8InAction
+ *
+ * Java 8 in Action
+ * Lambdas, streams, and functional-style programming
+ * Raoul-Gabriel Urma, Mario Fusco, and Alan Mycroft
+ */
 public class Mapping {
 
     public static void main(String... args) {

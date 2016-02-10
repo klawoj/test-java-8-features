@@ -9,7 +9,14 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import static common.Dish.menu;
-
+/**
+ * Borrowed from
+ * https://github.com/java8/Java8InAction
+ *
+ * Java 8 in Action
+ * Lambdas, streams, and functional-style programming
+ * Raoul-Gabriel Urma, Mario Fusco, and Alan Mycroft
+ */
 public class NumericStreams {
 
     public static void main(String... args) {

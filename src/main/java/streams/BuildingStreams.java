@@ -7,7 +7,14 @@ import java.util.Arrays;
 import java.util.function.IntSupplier;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
-
+/**
+ * Borrowed from
+ * https://github.com/java8/Java8InAction
+ *
+ * Java 8 in Action
+ * Lambdas, streams, and functional-style programming
+ * Raoul-Gabriel Urma, Mario Fusco, and Alan Mycroft
+ */
 public class BuildingStreams {
 
     public static void main(String... args) throws Exception {

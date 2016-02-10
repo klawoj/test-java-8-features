@@ -17,6 +17,14 @@ import java.util.Locale;
 import static java.time.temporal.TemporalAdjusters.lastDayOfMonth;
 import static java.time.temporal.TemporalAdjusters.nextOrSame;
 
+/**
+ * Borrowed from
+ * https://github.com/java8/Java8InAction
+ *
+ * Java 8 in Action
+ * Lambdas, streams, and functional-style programming
+ * Raoul-Gabriel Urma, Mario Fusco, and Alan Mycroft
+ */
 public class DateTimeExamples {
 
     private static final ThreadLocal<DateFormat> formatters = new ThreadLocal<DateFormat>() {

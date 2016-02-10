@@ -9,7 +9,14 @@ import java.util.Optional;
 import static common.Dish.menu;
 import static java.util.Comparator.comparingInt;
 import static java.util.stream.Collectors.*;
-
+/**
+ * Borrowed from
+ * https://github.com/java8/Java8InAction
+ *
+ * Java 8 in Action
+ * Lambdas, streams, and functional-style programming
+ * Raoul-Gabriel Urma, Mario Fusco, and Alan Mycroft
+ */
 public class Partitioning {
 
     public static void main(String... args) {
